@@ -1,0 +1,21 @@
+#contact {
+  padding: 2rem;
+  background-color: #f4f4f4;
+}
+.p-field {
+  margin-bottom: 1rem;
+}
+.p-inputtext,
+.p-editor-container {
+  border-radius: 12px;
+}
+
+/* Responsive Styles */
+@media (max-width: 600px) {
+  #contact {
+    padding: 1rem;
+  }
+  .p-field {
+    margin-bottom: 0.5rem;
+  }
+}

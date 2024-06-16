@@ -1,0 +1,21 @@
+#about {
+  padding: 2rem;
+  background-color: #f4f4f4;
+  text-align: center;
+  margin-top: 125px;
+  margin-bottom: 125px;
+}
+// p-fieldset.p-fieldset-legend {
+//   border-radius: 20px;
+// }
+
+:host ::ng-deep .p-fieldset {
+  border: 10px solid #dee2e6;
+}
+
+/* Responsive Styles */
+@media (max-width: 600px) {
+  #about {
+    padding: 1rem;
+  }
+}

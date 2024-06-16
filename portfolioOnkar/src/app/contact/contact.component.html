@@ -1,0 +1,33 @@
+<section id="contact" class="p-mt-5 p-p-3">
+  <h1>Reach out</h1>
+  <form (ngSubmit)="onSubmit()" class="p-fluid">
+    <div class="row">
+      <div>
+        <label for="name">Name:</label>
+        <input
+          pInputText
+          type="text"
+          id="name"
+          name="name"
+          [(ngModel)]="contact.name"
+        />
+      </div>
+
+      <div>
+        <label for="email">Email:</label>
+        <input
+          pInputText
+          type="email"
+          id="email"
+          name="email"
+          [(ngModel)]="contact.email"
+        />
+      </div>
+    </div>
+    <div class="p-field">
+      <label for="message">Message:</label>
+      <p-editor [(ngModel)]="text" name="msg" [style]="{ height: '160px' }" />
+    </div>
+    <button pButton type="submit" label="Send"></button>
+  </form>
+</section>
